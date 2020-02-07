@@ -33,7 +33,6 @@ function navCheck(entries) {
     }
   });
 }
-
 sections.forEach(section => {
   observer.observe(section);
 });
